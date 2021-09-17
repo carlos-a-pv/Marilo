@@ -65,6 +65,12 @@ body {
     color:green;
     cursor: pointer;
 }
+button {
+    border: none;
+    background-color: none;
+}
+#btn-registrar {}
+#btn-submit-form {}
 
 
 /* ESTILOS */
