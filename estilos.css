@@ -280,3 +280,15 @@ h3 {
         margin: 0 auto;
     }
   }
+
+
+/* ESTILOS VALIDACION */
+
+.ocultar {
+    display: none;
+}
+ 
+.mostrar {
+    display: block;
+}
+
