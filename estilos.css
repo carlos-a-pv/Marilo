@@ -266,8 +266,17 @@ h3 {
       width: 65%;
     }
   } */
-  /* @media (min-width: 1000px) {
-    .content-form {
-      width: 50%;
+  @media (max-width: 600px) {
+    .btn-container {
+      position: inherit;
+      display: flex;
+      justify-content: center    
     }
-  } */
+    .banner-container {
+        height: 250px;
+    }
+    .about-us {
+        height: 500px;
+        margin: 0 auto;
+    }
+  }
