@@ -35,11 +35,9 @@ body {
     margin: 0 auto;
     border-radius: 70px;
 }
-.logo:hover {
-    -webkit-transform:scale(1.5);
-    transform:scale(1.5);
-    cursor: pointer; 
-}
+
+    
+
 
 /* ESTILOS PARA EL MENU DE NAVEGACIÓN */
 .navegation {
@@ -57,7 +55,6 @@ body {
 .navegation-content-item:hover{
     /* -webkit-transform:scale(1.5);
     transform:scale(1.5); */
-    font-size: 30px;
     cursor: pointer;
 }
 .navegation-content-item a {   
@@ -66,9 +63,9 @@ body {
     font-size: 25px;
 }
 .navegation-content-item a:hover {
-    color:green;
+    color:rgb(78, 78, 78);
     cursor: pointer;
-    letter-spacing: 2.5px;
+    
 }
 button {
     border: none;
