@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela round', sans-serif;
 }
 /* ESTILOS PARA EL BANNER PRINCIPAL */
 .banner{
@@ -55,7 +55,7 @@ body {
     text-decoration: none;
     color: #B1DEEC;
     font-size: 22px;
-    font-family: vare;
+    font-family: Varela round;
 }
 .navegation-content-item a:hover {
     color:rgb(78, 78, 78);
