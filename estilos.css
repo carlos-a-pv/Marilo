@@ -19,6 +19,8 @@ body {
     width: 100%;
     height: auto;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .banner-container h1 {
     margin: 20px auto;
