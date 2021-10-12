@@ -1,83 +1,131 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+ 
+  </style>
+</head>
+<link rel="stylesheet" href="estilos.css">
+<body>
 
-    <title>El título de mi página</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style.css">
-
-    <!-- las tres siguientes líneas son un truco para obtener elementos semánticos de HTML5 que funcionan en versiones de Internet Explorer antiguas -->
-    <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-    <!-- Aquí empieza el encabezado principal que se mantendrá en todas las páginas del sitio web -->
 
     <header>
-      <h1>Encabezado</h1>
+        <section class="banner">
+            <div class="banner-container">
+                <img src="./img/logo.jpg" alt="">
+                <div class="btn-container">
+                    <button  class="btn-banner">
+                        
+                        <a class="btn-banner-content" href="login.html">Ingresar</a>
+                    </button>
+                    
+                    <button class="btn-banner" id="btn-registrar">
+                        <a class="btn-banner-content" href="./registro.html">Registrarse</a>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+        <nav class="navegation">
+            <ul class="navegation-content">
+                <li class="navegation-content-item">
+                    <a href="">Inicio</a>    
+                </li>
+                </li>
+                <li class="navegation-content-item">
+                    <a href="">Productos</a>    
+                </li>
+                </li>
+                <li class="navegation-content-item">
+                    <a href="">Sobre nosotros</a>    
+                </li>
+                <li class="navegation-content-item">
+                    <a href="">Mi cuenta</a>    
+                </li>
+                <li class="navegation-content-item">
+                    <a href="">Contacto</a>    
+                </li>
+                <!-- <li class="navegation-content-item">
+                    <button id="btn-registrar">
+                        <a href="./registro.html">Registrate</a>
+                    </button>
+                </li> -->
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Nuestro equipo</a></li>
-        <li><a href="#">Proyectos</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
+    <!-- GALERIA1-->
 
-       <!-- Un formulario de búsqueda es una forma no-lineal de hacer búsquedas en un sitio web. -->
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+    /* Make the image fully responsive */
 
-       <form>
-         <input type="search" name="q" placeholder="Buscar">
-         <input type="submit" value="¡Vamos!">
-       </form>
-     </nav>
+    </style>
+  </head>
+  <body>
+   
+  <div id="demo" class="carousel carousel slide" data-ride="carousel">
+   
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+    </ul>
+   
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="C:\Users\carol\OneDrive\Escritorio\Marilo\img\G1.jpg" alt="pic1" width="800" height="300" >
+      </div>
+      <div class="carousel-item">
+        <img src="C:\Users\carol\OneDrive\Escritorio\Marilo\img\G2.jpg" alt="pic2" width="800" height="300">
+      </div>
+      <div class="carousel-item">
+        <img src="C:\Users\carol\OneDrive\Escritorio\Marilo\img\G3.jpg" alt="pic3" width="800" height="300">
+      </div>
+      <div class="carousel-item">
+          <img src="C:\Users\carol\OneDrive\Escritorio\Marilo\img\G4.jpg" alt="pic4" width="1100" height="500">
+        </div>
+    </div>
+   
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev" >
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next" >
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
 
-    <!-- Aquí está el contenido principal de nuestra página -->
-    <main>
-
-      <!-- Contiene un artículo -->
-      <article>
-        <h2>Título del artículo</h2>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
-
-        <h3>Subsección</h3>
-
-        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
-
-        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
-
-        <h3>Otra subsección</h3>
-
-        <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
-
-        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
-      </article>
-
-      <!-- el contenido aparte también se puede anidar dentro del contenido principal -->
-      <aside>
-        <h2>Relacionado</h2>
-
-        <ul>
-          <li><a href="#">Oh, me gusta estar junto al mar</a></li>
-          <li><a href="#">Oh, me gusta estar junto al mar</a></li>
-          <li><a href="#">Aunque en el norte de Inglaterra</a></li>
-          <li><a href="#">Nunca deja de llover</a></li>
-          <li><a href="#">Oh, bueno...</a></li>
-        </ul>
-      </aside>
-
-    </main>
-
-    <!-- Y aquí está nuestro pie de página principal que se utiliza en todas las páginas de nuestro sitio web -->
-
-    <footer>
-      <p>©Copyright 2050 de nadie. Todos los derechos revertidos.</p>
-    </footer>
-
-  </body>
-</html>
+  <section class="about-us">
+    <div class="about-us-content">
+        <h2 class="about-us-content-title">QUIENES SOMOS</h2>
+        <p class="about-us-content-item">Somos una boutique de arte infantil que busca incentivar la creatividad en los más pequeños
+            y promover valores a través de nuestros mensajes.
+            Realizamos talleres, cursos de arte basados en la metodologia de Maria Montessori. Hacemos
+            cosas bonitas para acompañar a los pequeños y sus padres en esta nueva aventura, asi cada
+            una de nuestras piezas y cursos son realizados de una manera especial, pintando e imaginando
+            historias llenas de encanto y originalidad.</p>
+        <button class="about-us-content-button">leer más</button>    
+    </div>
+</section>
+<section class="section-one">
+    <div class="img-section-one">
+    </div>
+</section>
+<footer></footer>
