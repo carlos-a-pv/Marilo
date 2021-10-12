@@ -61,21 +61,22 @@ button {
     margin: 0 auto;
     margin-top: 50px;
     position: relative;
-    left: 150px;
+    left: 300px;
     right: 100px;
     border: 3px;
+    background-position: center;
     
     }   
 
 .carousel-control-next {
     filter: invert(100%);
-    margin-right: 620px;
+    margin-right: 270px;
     
     } 
 
 .carousel-control-prev {
     filter: invert(100%);
-    margin-left: 110px;
+    margin-left: 270px;
     
 }   
 
